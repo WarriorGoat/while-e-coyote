@@ -12,7 +12,8 @@ while (r>0) {
     console.log("Your initial number X = " + (x+n));
     console.log("Your initial numer Y = " + y);
     console.log("X divided by Y leaves a remainder r = " + r);
+    n=n+1;
     console.log("This is attempt number n = " + n);
     console.log("   ");
-    n=n+1;
+    
 }

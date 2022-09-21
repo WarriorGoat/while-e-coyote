@@ -12,7 +12,7 @@ const prompt = require('prompt-sync')({sigint: true});
 console.log("Please enter a string.");
 let str1 = prompt(">>  ");
 let str2 = str1
-while (str1.length < 10) {
+while (str1.length <= 10) {
     console.log(str1);
     str1 += str2;
     

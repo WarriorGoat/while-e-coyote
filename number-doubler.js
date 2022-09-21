@@ -12,7 +12,7 @@ const prompt = require('prompt-sync')({sigint: true});
 console.log("Please enter a number from 1-100 to double.");
 let number = Number(prompt(">>  "));
 
-while (number >= 0 && number <= 100) {
+while (number >= 1 && number <= 100) {
     number = number *2;
     console.log(number);
 }
