@@ -13,7 +13,7 @@ console.log(n1);
 console.log(n2);
 console.log(n3);
 
-while (i < (x+1)) {
+while (i < (x-3)) {
     n1 = n2
     n2 = n3 
     n3 = n1 + n2
